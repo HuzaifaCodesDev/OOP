@@ -32,3 +32,4 @@ p1.write("kaisay ho dosto")
 p2.write("kaisay ho dosto")
 
 p1.erase();
+p2.erase();
