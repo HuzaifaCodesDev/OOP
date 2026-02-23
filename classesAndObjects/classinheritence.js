@@ -13,8 +13,7 @@ class User{
     }
     checkrole(){
     return `You are a ${this.role}`
-    
-    }
+       }
 }
 class Admin extends User{
     constructor(name,address,username,email) {
@@ -25,11 +24,8 @@ class Admin extends User{
     remove(){
         document.querySelectorAll("h2").forEach((e)=>{
             e.remove();
-
         });
-
     }
-  
 }
 let u1 = new User("huzI", "multan", "huzii","huzaifa@gmail.com");
 let u2 = new User("diju", "multan", "di","aifa@gmail.com");
